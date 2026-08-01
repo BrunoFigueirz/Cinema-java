@@ -49,12 +49,12 @@ public class Filme {
         this.classificacaoIndicativa = classificacaoIndicativa;
     }
 
-    // Método para exibir as informações do filme formatadas
+    // M\u00e9todo para exibir as informa\u00e7\u00f5es do filme formatadas
     @Override
     public String toString() {
         return "Filme: " + titulo + 
-               " | Gênero: " + genero + 
-               " | Duração: " + duracaoEmMinutos + " min" +
-               " | Classificação: " + classificacaoIndicativa;
+               " | G\u00eanero: " + genero + 
+               " | Dura\u00e7\u00e3o: " + duracaoEmMinutos + " min" +
+               " | Classifica\u00e7\u00e3o: " + classificacaoIndicativa;
     }
 }
